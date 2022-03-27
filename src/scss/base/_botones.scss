@@ -1,0 +1,15 @@
+.boton-amarillo {
+    @include boton($amarillo, inline-block);
+    cursor: pointer;
+    
+}
+.boton-amarillo-block {
+    @include boton($amarillo, block);
+    cursor: pointer;
+    
+}
+
+.boton-verde {
+    @include boton($verde, inline-block);
+}
+
